@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuickTipsHub.com - 200+ Лайфхаків</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+body { background:#f0f2f5; color:#333; line-height:1.5; scroll-behavior: smooth; }
+
+header { background:#1f2937; color:white; padding:15px 0; position:sticky; top:0; z-index:1000; box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+header h1 { text-align:center; font-size:2rem; margin-bottom:5px;}
+header p { text-align:center; color:#d1d5db; font-size:0.9rem; margin-bottom:0; }
+
+nav { background:#111827; display:flex; justify-content:center; flex-wrap:wrap; position:sticky; top:70px; z-index:999;}
+nav a { color:white; text-decoration:none; margin:0 15px; padding:12px 0; display:block; font-weight:bold; transition:0.3s;}
+nav a:hover, nav a.active { color:#facc15; }
+
+section { padding:30px 15px; max-width:1200px; margin:0 auto; }
+section h2 { font-size:1.8rem; margin-bottom:20px; color:#111827; text-align:center; }
+
+.container { display:grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap:20px; }
+
+.card { background:white; border-radius:12px; padding:20px; box-shadow:0 4px 12px rgba(0,0,0,0.1); transition:0.3s; display:flex; flex-direction:column; justify-content:space-between; }
+.card:hover { transform:translateY(-5px); box-shadow:0 8px 20px rgba(0,0,0,0.15); }
+.card h3 { font-size:1.2rem; margin-bottom:10px; color:#111827; }
+.solution { background:#fef3c7; padding:10px; border-left:5px solid #f59e0b; border-radius:5px; margin-bottom:10px; }
+.solution ul { padding-left:20px; }
+.ads { background:#e0f2fe; padding:10px; margin:10px 0; text-align:center; font-weight:bold; border-radius:5px; color:#0369a1; }
+
+footer { background:#1f2937; color:white; text-align:center; padding:20px; margin-top:30px; }
+
+@media(max-width:600px){ nav { flex-direction:column; } nav a { margin:5px 0; } }
+</style>
+</head>
+<body>
+
+<header>
+<h1>QuickTipsHub.com</h1>
+<p>200+ Лайфхаків для щоденного життя, здоров’я, роботи та дому</p>
+</header>
+
+<nav id="navbar">
+<a href="#home">Головна</a>
+<a href="#home-tips">Домашні поради</a>
+<a href="#tech-tips">Технології</a>
+<a href="#food-tips">Їжа</a>
+<a href="#finance-tips">Фінанси</a>
+<a href="#health-tips">Здоров’я</a>
+</nav>
+
+<!-- ====== Головна ====== -->
+<section id="home">
+<h2>Ласкаво просимо до QuickTipsHub.com</h2>
+<p style="text-align:center; max-width:800px; margin:0 auto 20px auto;">
+Тут ви знайдете більше ніж 200 лайфхаків та рішень для повсякденного життя, дому, роботи, здоров’я та фінансів.
+Використовуйте верхнє меню, щоб швидко переходити до потрібної категорії.
+</p>
+<div style="text-align:center;">
+<a href="#home-tips" style="padding:12px 25px; background:#f59e0b; color:white; border-radius:6px; text-decoration:none; font-weight:bold;">Почати перегляд лайфхаків</a>
+</div>
+</section>
+
+<!-- ====== Домашні поради ====== -->
+<section id="home-tips">
+<h2>Домашні поради</h2>
+<div class="container">
+<!-- 20 карток домашніх лайфхаків -->
+<div class="card">
+<h3>Як швидко прибрати пляму з одягу</h3>
+<div class="solution">
+<ul>
+<li>Світлі плями: мильний розчин + тепла вода.</li>
+<li>Жирні плями: тальк 10 хв, змити.</li>
+<li>Сильні плями: оцет або лимонний сік, залишити 15 хв, випрати.</li>
+</ul>
+</div>
+<div class="ads">Місце для реклами</div>
+</div>
+
+<div class="card">
+<h3>5 способів швидкого прибирання кухні</h3>
+<div class="solution">
+<ul>
+<li>Чистіть поверхні після приготування.</li>
+<li>Мийте посуд відразу або в посудомийці.</li>
+<li>Використовуйте мультиспрей для всіх поверхонь.</li>
+<li>Регулярно протирайте полиці від пилу.</li>
+<li>Використовуйте кошики для зберігання речей.</li>
+</ul>
+</div>
+<div class="ads">Місце для реклами</div>
+</div>
+
+<!-- Додаткові 18 карток можна додати аналогічно -->
+
+</div>
+<div style="text-align:center; margin-top:20px;">
+<a href="#home" style="padding:10px 20px; background:#1f2937; color:white; border-radius:5px; text-decoration:none; font-weight:bold;">Повернутися на головну</a>
+</div>
+</section>
+
+<!-- ====== Технології ====== -->
+<section id="tech-tips">
+<h2>Технології</h2>
+<div class="container">
+<div class="card">
+<h3>ТОП 5 мобільних додатків для продуктивності</h3>
+<div class="solution">
+<ul>
+<li>Evernote для нотаток</li>
+<li>Todoist для завдань</li>
+<li>Trello для проєктів</li>
+<li>Forest для концентрації</li>
+<li>Notion для всього разом</li>
+</ul>
+</div>
+<div class="ads">Місце для реклами</div>
+</div>
+
+<div class="card">
+<h3>Як прискорити старий ноутбук</h3>
+<div class="solution">
+<ul>
+<li>Видаліть непотрібні програми та файли.</li>
+<li>Оновіть SSD диск для швидшої роботи.</li>
+<li>Оновіть оперативну пам’ять (RAM).</li>
+<li>Очистіть систему від шкідливих програм.</li>
+</ul>
+</div>
+<div class="ads">Місце для реклами</div>
+</div>
+
+<!-- Додаткові картки до 20 -->
+
+</div>
+<div style="text-align:center; margin-top:20px;">
+<a href="#home" style="padding:10px 20px; background:#1f2937; color:white; border-radius:5px; text-decoration:none; font-weight:bold;">Повернутися на головну</a>
+</div>
+</section>
+
+<!-- ====== Їжа та рецепти ====== -->
+<section id="food-tips">
+<h2>Їжа та рецепти</h2>
+<div class="container">
+<div class="card">
+<h3>Швидкі рецепти на 20 хвилин</h3>
+<div class="solution">
+<ul>
+<li>Супи з заморожених овочів</li>
+<li>Паста з соусом з томатів та часнику</li>
+<li>Салати зі свіжих овочів та консервованої риби</li>
+<li>Запіканки з круп та овочів</li>
+</ul>
+</div>
+<div class="ads">Місце для реклами</div>
+</div>
+
+<div class="card">
+<h3>Як зберігати зелень довше</h3>
+<div class="solution">
+<ul>
+<li>Мийте, сушіть і зберігайте в контейнері з паперовим рушником.</li>
+<li>Можна заморожувати дрібно нарізану зелень.</li>
+<li>Використовуйте пластикові пакети для окремих видів.</li>
+</ul>
+</div>
+<div class="ads">Місце для реклами</div>
+</div>
+
+<!-- Додаткові картки до 20 -->
+
+</div>
+<div style="text-align:center; margin-top:20px;">
+<a href="#home" style="padding:10px 20px; background:#1f2937; color:white; border-radius:5px; text-decoration:none; font-weight:bold;">Повернутися на головну</a>
+</div>
+</section>
+
+<!-- ====== Фінанси ====== -->
+<section id="finance-tips">
+<h2>Фінанси</h2>
+<div class="container">
+<div class="card">
+<h3>5 способів економії грошей</h3>
+<div class="solution">
+<ul>
+<li>Складіть бюджет на місяць</li>
+<li>Використовуйте кешбек-сервіси</li>
+<li>Відкладіть 10% доходу відразу</li>
+<li>Порівнюйте ціни перед покупкою</li>
+<li>Відмовтесь від непотрібних підписок</li>
+</ul>
+</div>
+<div class="ads">Місце для реклами</div>
+</div>
+
+<div class="card">
+<h3>Як уникнути боргів</h3>
+<div class="solution">
+<ul>
+<li>Не використовуйте кредитні карти для дрібних покупок</li>
+<li>Плануйте великі витрати заздалегідь</li>
+<li>Ведіть облік усіх доходів і витрат</li>
+<li>Використовуйте автоматичні платежі</li>
+</ul>
+</div>
+<div class="ads">Місце для реклами</div>
+</div>
+
+<!-- Додаткові картки до 20 -->
+
+</div>
+<div style="text-align:center; margin-top:20px;">
+<a href="#home" style="padding:10px 20px; background:#1f2937; color:white; border-radius:5px; text-decoration:none; font-weight:bold;">Повернутися на головну</a>
+</div>
+</section>
+
+<!-- ====== Здоров’я ====== -->
+<section id="health-tips">
+<h2>Здоров’я</h2>
+<div class="container">
+<div class="card">
+<h3>Прості вправи для спини вдома</h3>
+<div class="solution">
+<ul>
+<li>Розтяжка шиї та плечей</li>
+<li>Планка 30 секунд → збільшувати час</li>
+<li>Супермен: руки та ноги підняти лежачи</li>
+<li>Йога для розслаблення хребта</li>
+</ul>
+</div>
+<div class="ads">Місце для реклами</div>
+</div>
+
+<div class="card">
+<h3>Як підвищити імунітет</h3>
+<div class="solution">
+<ul>
+<li>Правильне харчування: овочі, фрукти, білки</li>
+<li>Регулярна фізична активність</li>
+<li>Сон 7-8 годин щодня</li>
+<li>Мінімізація стресу</li>
+</ul>
+</div>
+<div class="ads">Місце для реклами</div>
+</div>
+
+<!-- Додаткові картки до 20 -->
+
+</div>
+<div style="text-align:center; margin-top:20px;">
+<a href="#home" style="padding:10px 20px; background:#1f2937; color:white; border-radius:5px; text-decoration:none; font-weight:bold;">Повернутися на головну</a>
+</div>
+</section>
+
+<footer>
+&copy; 2026 QuickTipsHub.com | Всі права захищені
+</footer>
+
+<script>
+// --- Navbar активний стан ---
+const navLinks = document.querySelectorAll('nav a');
+const sections = document.querySelectorAll('section');
+window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (pageYOffset >= sectionTop) current = section.getAttribute('id');
+    });
+    navLinks.forEach(a => { a.classList.remove('active'); if(a.getAttribute('href') === '#' + current) a.classList.add('active'); });
+});
+</script>
+
+</body>
+</html>
